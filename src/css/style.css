@@ -979,7 +979,7 @@ button:focus {
 }
 .int-header .logo img {
 	max-height: 27px;
-	filter: brightness(0) invert(1);
+	/* filter: brightness(0) invert(1); */
 }
 
 .int-header nav {
@@ -1107,20 +1107,39 @@ button:focus {
 }
 
 .hero_sec {
-    background: url(https://turbo360.com/events/integrate-2024/images/integrate2019-hero-bg-1.jpg) no-repeat left center;
-	background-size: cover;
+    /* Other styles remain unchanged */
+
     padding: 140px 0 0;
     text-align: center;
-	min-height:725px;
-	position: relative;
+    min-height: 725px;
+    position: relative;
+	isolation: isolate;
 }
+
+/* Add this pseudo-element */
+.hero_sec::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: pink;
+    background-size: cover;
+	z-index: -1;
+    opacity: .9; /* Set the opacity as needed */
+    pointer-events: none; /* Allows clicking through this layer */
+	background: url(/src/Images/team-back.webp) no-repeat left center;
+    background-size: cover;
+}
+
 .hero_sec .container {
     z-index: 3;
     position: relative;
 }
 .hero_sec .tect_partner {
         position: absolute;
-    background: url(https://turbo360.com/events/integrate-2024/images/bg_gray.png) repeat;
+    background: url(/src/Images/team11.webp) repeat;
     z-index: 99;
     bottom: 50px;
     right: 7%;
@@ -1335,8 +1354,9 @@ margin: 0 auto;
 }
 
 .high-sec .high-bg {
-	background-image:url("https://turbo360.com/events/integrate-2024/images/high-stat.jpg");
-		    background-size: cover;
+	
+    background-color: #198754;
+	background-size: cover;
     border-radius: 0 150px 0 0;
     bottom: 0;
     overflow: hidden;

@@ -6,13 +6,12 @@
   <title>Welcome</title>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-        window.location.href = '/Deep-Learning-IndabaX-Burundi/fr/';
-        // var userLang = navigator.language || navigator.userLanguage; // Detect browser language
-        // if (userLang.startsWith('fr')) {
-        //     // Redirect to French version
-        // } else {
-        //     window.location.href = '/Deep-Learning-IndabaX-Burundi/en/'; // Default to English version
-        // }
+        var userLang = navigator.language || navigator.userLanguage; // Detect browser language
+        if (userLang.startsWith('fr')) {
+            window.location.href = '/Deep-Learning-IndabaX-Burundi/fr/'; // Redirect to French version
+        } else {
+            window.location.href = '/Deep-Learning-IndabaX-Burundi/en/'; // Default to English version
+        }
     });
 </script>
 </head>

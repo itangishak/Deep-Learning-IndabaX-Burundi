@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var userLang = navigator.language || navigator.userLanguage; // Detect browser language
+        if (userLang.startsWith('fr')) {
+            window.location.href = '/fr/'; // Redirect to French version
+        } else {
+            window.location.href = '/en/'; // Default to English version
+        }
+    });
+</script>
+</head>
+<body>
+  
+</body>
+</html>

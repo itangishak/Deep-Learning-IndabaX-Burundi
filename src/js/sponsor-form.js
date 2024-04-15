@@ -81,7 +81,7 @@ $(function() {
             $(".loading_form").show();
 
             $.ajax({
-                url: "https://contact.kovai.co/api/biztalk360/create-update-user",
+                url: "https://script.google.com/macros/s/AKfycbyh5kNZVr9kY1o4osrrrFx1KsjwXwO6KEtRJ1mvj6fq6Vfj9bwRlcon-k4e7Yht3QdUaQ/exec",
                 type: "POST",
                 data: {
                     "FirstName": firstName,

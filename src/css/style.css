@@ -63,7 +63,10 @@ body {
 	background: #ffffff;
 	overflow-x: hidden;
 }
-
+.language-switch {
+	cursor: pointer;
+	padding: 20px;
+  }
 a {
 	color: #101010;
 	outline: 0;

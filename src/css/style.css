@@ -1132,7 +1132,7 @@ button:focus {
 	z-index: -1;
     opacity: .9; /* Set the opacity as needed */
     pointer-events: none; /* Allows clicking through this layer */
-	background: url(/src/Images/team-back.webp) no-repeat left center;
+	background: url(/src/Images/ingoma.webp) no-repeat left center;
     background-size: cover;
 }
 

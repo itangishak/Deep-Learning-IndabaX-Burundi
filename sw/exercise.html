@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Range Picker</title>
+
+<style>
+    #time-range-form {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    .time-select-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px; /* Adjust the margin as needed */
+    }
+    
+    #time-range-form label {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    
+    #time-range-form select {
+        font-size: 16px;
+    }
+    
+    .hyphen {
+        font-size: 20px;
+        padding: 0 10px; /* Adjust padding to control spacing around the hyphen */
+    }
+    
+    /* Adjustments for the submit button spacing */
+    #time-range-form button {
+        margin-left: 10px; /* Adjust the margin as needed */
+    }
+    </style>
+<script>
+function generateOptions(start, end, step, suffix) {
+    let options = '';
+    for (let i = start; i <= end; i += step) {
+        let value = i.toString().padStart(2, '0');
+        options += `<option value="${value}">${value}${suffix}</option>`;
+    }
+    return options;
+}
+
+function submitTimeRange() {
+    let startTime = document.getElementById('start-hour').value + ':' + document.getElementById('start-minute').value;
+    let endTime = document.getElementById('end-hour').value + ':' + document.getElementById('end-minute').value;
+    let timeRange = startTime + '-' + endTime;
+    
+    console.log(timeRange); // Here you would send this value to your server/database
+    // Example: sendTimeRangeToServer(timeRange);
+}
+</script>
+</head>
+<body>
+
+    <form id="time-range-form" onsubmit="submitTimeRange(); return false;">
+        <div class="time-select-group">
+            <label for="start-hour">Hour</label>
+            <select id="start-hour">
+                <script>document.write(generateOptions(0, 23, 1, ''));</script>
+            </select>
+        </div>
+        <div class="time-select-group">
+            <label for="start-minute">Min</label>
+            <select id="start-minute">
+                <script>document.write(generateOptions(0, 59, 15, ''));</script>
+            </select>
+        </div>
+    
+        <div class="hyphen">-</div>
+    
+        <div class="time-select-group">
+            <label for="end-hour">Hour</label>
+            <select id="end-hour">
+                <script>document.write(generateOptions(0, 23, 1, ''));</script>
+            </select>
+        </div>
+        <div class="time-select-group">
+            <label for="end-minute">Min</label>
+            <select id="end-minute">
+                <script>document.write(generateOptions(0, 59, 15, ''));</script>
+            </select>
+        </div>
+    
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

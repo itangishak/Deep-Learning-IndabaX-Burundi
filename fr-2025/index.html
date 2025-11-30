@@ -166,7 +166,7 @@
                     <rect width="24.5" height="28" fill="white" />
                   </clipPath>
                 </defs>
-              </svg></span>3–4 décembre 2025 </p>
+              </svg></span>10–11 décembre 2025 </p>
           <p> <span class="ms-lg-5 me-2"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"
                 viewBox="0 0 21 28" fill="none">
                 <g clip-path="url(#clip0_17_67)">
@@ -510,11 +510,11 @@
             <ul class="nav nav-tabs" id="agendaTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="day1-tab" data-bs-toggle="tab" data-bs-target="#day1"
-                  type="button" role="tab" aria-controls="day1" aria-selected="true">Jour 1<span>3 décembre 2025</span></button>
+                  type="button" role="tab" aria-controls="day1" aria-selected="true">Jour 1<span>10 décembre 2025</span></button>
               </li>
               <li class="nav-item" role="presentation">
                 <button class="nav-link" id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2"
-                  type="button" role="tab" aria-controls="day2" aria-selected="false">Jour 2<span>4 décembre 2025</span></button>
+                  type="button" role="tab" aria-controls="day2" aria-selected="false">Jour 2<span>11 décembre 2025</span></button>
               </li>
             </ul>
           <div class="tab-content" id="agendaTabContent">
@@ -1229,7 +1229,43 @@
       document.cookie = "referrerDomain" + "=" + referrerDomain + ";" + expires + ";path=/";
     }
   </script>
-
+  <div class="modal fade" id="announcementModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-transparent border-0">
+        <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img src="/src/Images/announcement.jpeg" alt="Annonce" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+  <script>
+    (function(){
+      var key = 'announcement_shown_2025';
+      function showAnnouncement(){
+        var el = document.getElementById('announcementModal');
+        if(!el || !window.bootstrap || !bootstrap.Modal) return;
+        var modal = new bootstrap.Modal(el);
+        modal.show();
+        try { sessionStorage.setItem(key, '1'); } catch(e) {}
+      }
+      document.addEventListener('DOMContentLoaded', function(){
+        var shown = false;
+        try { shown = !!sessionStorage.getItem(key); } catch(e) { shown = false; }
+        if(!shown){
+          showAnnouncement();
+        }
+        var exitIntentTriggered = false;
+        document.addEventListener('mouseout', function(e){
+          if(e.clientY <= 0 && !exitIntentTriggered){
+            var already = false; try { already = !!sessionStorage.getItem(key); } catch(e) { already = false; }
+            if(!already){
+              exitIntentTriggered = true;
+              showAnnouncement();
+            }
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 
 <script>
@@ -1308,7 +1344,7 @@
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = new Date(Date.parse('12/02/2025 23:00:00'));
+  var deadline = new Date(Date.parse('12/07/2025 23:00:00'));
   initializeClock('clockdiv', deadline);
 
 </script>

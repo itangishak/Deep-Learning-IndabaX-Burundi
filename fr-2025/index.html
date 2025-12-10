@@ -1230,43 +1230,6 @@
       document.cookie = "referrerDomain" + "=" + referrerDomain + ";" + expires + ";path=/";
     }
   </script>
-  <div class="modal fade" id="announcementModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content bg-transparent border-0">
-        <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/src/Images/announcement.jpeg" alt="Annonce" class="img-fluid rounded">
-      </div>
-    </div>
-  </div>
-  <script>
-    (function(){
-      var key = 'announcement_shown_2025';
-      function showAnnouncement(){
-        var el = document.getElementById('announcementModal');
-        if(!el || !window.bootstrap || !bootstrap.Modal) return;
-        var modal = new bootstrap.Modal(el);
-        modal.show();
-        try { sessionStorage.setItem(key, '1'); } catch(e) {}
-      }
-      document.addEventListener('DOMContentLoaded', function(){
-        var shown = false;
-        try { shown = !!sessionStorage.getItem(key); } catch(e) { shown = false; }
-        if(!shown){
-          showAnnouncement();
-        }
-        var exitIntentTriggered = false;
-        document.addEventListener('mouseout', function(e){
-          if(e.clientY <= 0 && !exitIntentTriggered){
-            var already = false; try { already = !!sessionStorage.getItem(key); } catch(e) { already = false; }
-            if(!already){
-              exitIntentTriggered = true;
-              showAnnouncement();
-            }
-          }
-        });
-      });
-    })();
-  </script>
 </body>
 
 <script>
@@ -1329,20 +1292,13 @@
     var secondsSpan = clock.querySelector('.seconds');
 
     function updateClock() {
-      var t = getTimeRemaining(endtime);
-
-      daysSpan.innerHTML = t.days;
-      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-      if (t.total <= 0) {
-        clearInterval(timeinterval);
-      }
+      daysSpan.innerHTML = '0';
+      hoursSpan.innerHTML = '00';
+      minutesSpan.innerHTML = '00';
+      secondsSpan.innerHTML = '00';
     }
 
     updateClock();
-    var timeinterval = setInterval(updateClock, 1000);
   }
 
   var deadline = new Date(Date.parse('12/07/2025 23:00:00'));

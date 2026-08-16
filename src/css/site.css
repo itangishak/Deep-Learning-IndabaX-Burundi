@@ -790,6 +790,3 @@ dialog.bio::backdrop { background: rgba(13, 18, 17, .6); backdrop-filter: blur(2
 }
 .documents a:hover { border-color: var(--accent); background: var(--accent-soft); }
 .documents svg { width: 18px; height: 18px; }
-
-.sponsors li.no-logo { justify-content: center; min-height: 8rem; }
-.sponsors li.no-logo span { font-size: 1.02rem; color: var(--ink); }

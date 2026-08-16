@@ -1,0 +1,165 @@
+{
+  "en": {
+    "locale": "en_US",
+    "otherLocaleName": "Français",
+    "switchLabel": "Voir cette page en français",
+    "skipToContent": "Skip to content",
+
+    "nav": {
+      "about": "About",
+      "editions": "Editions",
+      "community": "Community",
+      "getInvolved": "Get involved",
+      "contact": "Contact",
+      "home": "Home"
+    },
+
+    "org": {
+      "kicker": "Deep Learning IndabaX",
+      "title": "Building Burundi's artificial intelligence community",
+      "lede": "IndabaX Burundi is a volunteer-run chapter of the Deep Learning Indaba movement. Every year we bring students, researchers and practitioners together in Bujumbura to learn, teach and build with artificial intelligence — in Burundi, by Burundians.",
+      "primaryCta": "See the next edition",
+      "secondaryCta": "What we do",
+
+      "missionTitle": "What we do",
+      "missionLede": "Three things, repeated every year.",
+      "mission": [
+        { "title": "An annual gathering", "body": "A two- to three-day meeting at the University of Burundi with keynotes, hands-on workshops and panels. It is free to attend, and priority goes to students and early-career researchers." },
+        { "title": "Practical teaching", "body": "Workshops where participants build something real — a model in TensorFlow, a no-code classifier, a mobile application — rather than only hearing about them." },
+        { "title": "A standing community", "body": "The event is the visible part. Between editions we connect people to the wider Deep Learning Indaba network, to supervisors, and to each other." }
+      ],
+
+      "editionsTitle": "Editions",
+      "editionsLede": "Every edition keeps its own page — programme, speakers and photographs stay online after the event.",
+      "editionUpcoming": "Upcoming",
+      "editionPast": "Past edition",
+      "editionView": "View edition",
+      "editionArchived": "View archived page",
+
+      "involvedTitle": "Get involved",
+      "involvedLede": "There are four ways to take part, and all of them start with an email.",
+      "involved": [
+        { "title": "Attend", "body": "Applications open a few months before each edition. Places are limited and early applicants are favoured.", "cta": "See the next edition" },
+        { "title": "Speak", "body": "If you work on AI in Burundi or the region and want to present, tell us what you would talk about.", "cta": "Propose a talk" },
+        { "title": "Sponsor", "body": "Sponsorship covers venue, catering and connectivity, and keeps attendance free for students.", "cta": "Become a sponsor" },
+        { "title": "Organise", "body": "The event is run entirely by volunteers. Logistics, communication and technical help are always needed.", "cta": "Volunteer" }
+      ],
+
+      "partnersTitle": "Partners",
+      "contactTitle": "Contact us",
+      "followTitle": "Follow"
+    },
+
+    "event": {
+      "datesTba": "Dates to be announced",
+      "concluded": "This edition has concluded. Thank you to everyone who took part.",
+      "apply": "Apply to attend",
+      "applySoon": "Applications not yet open",
+      "programme": "Programme",
+      "programmeLede": "Subject to change — check back closer to the event.",
+      "speakers": "Speakers",
+      "team": "Organising team",
+      "sponsors": "Sponsors and partners",
+      "venue": "Venue",
+      "getDirections": "Get directions",
+      "gallery": "From the event",
+      "viewProgramme": "View the programme",
+      "backToEditions": "All editions",
+      "countdownDays": "days",
+      "countdownHours": "hours",
+      "countdownMinutes": "minutes",
+      "countdownSeconds": "seconds",
+      "breakLabel": "Break",
+      "noSpeakersYet": "Speakers will be announced here as they are confirmed.",
+      "noProgrammeYet": "The programme will be published here once it is set.",
+      "programmeArchiveUnavailable": "The programme for this edition is not available in the online archive."
+    },
+
+    "footer": {
+      "rights": "Deep Learning IndabaX Burundi",
+      "builtBy": "Run by volunteers in Bujumbura."
+    }
+  },
+
+  "fr": {
+    "locale": "fr_FR",
+    "otherLocaleName": "English",
+    "switchLabel": "View this page in English",
+    "skipToContent": "Aller au contenu",
+
+    "nav": {
+      "about": "À propos",
+      "editions": "Éditions",
+      "community": "Communauté",
+      "getInvolved": "Participer",
+      "contact": "Contact",
+      "home": "Accueil"
+    },
+
+    "org": {
+      "kicker": "Deep Learning IndabaX",
+      "title": "Construire la communauté burundaise de l'intelligence artificielle",
+      "lede": "IndabaX Burundi est une antenne bénévole du mouvement Deep Learning Indaba. Chaque année, nous réunissons à Bujumbura étudiants, chercheurs et praticiens pour apprendre, enseigner et créer avec l'intelligence artificielle — au Burundi, par des Burundais.",
+      "primaryCta": "Voir la prochaine édition",
+      "secondaryCta": "Nos activités",
+
+      "missionTitle": "Nos activités",
+      "missionLede": "Trois choses, chaque année.",
+      "mission": [
+        { "title": "Un rendez-vous annuel", "body": "Deux à trois jours à l'Université du Burundi : conférences, ateliers pratiques et tables rondes. La participation est gratuite et la priorité va aux étudiants et aux jeunes chercheurs." },
+        { "title": "Un enseignement pratique", "body": "Des ateliers où l'on construit réellement quelque chose — un modèle TensorFlow, un classificateur no-code, une application mobile — plutôt que d'en entendre seulement parler." },
+        { "title": "Une communauté durable", "body": "L'événement n'est que la partie visible. Entre deux éditions, nous mettons les participants en relation avec le réseau Deep Learning Indaba, avec des encadrants et entre eux." }
+      ],
+
+      "editionsTitle": "Éditions",
+      "editionsLede": "Chaque édition conserve sa page : programme, intervenants et photos restent en ligne après l'événement.",
+      "editionUpcoming": "À venir",
+      "editionPast": "Édition passée",
+      "editionView": "Voir l'édition",
+      "editionArchived": "Voir la page archivée",
+
+      "involvedTitle": "Participer",
+      "involvedLede": "Quatre façons de nous rejoindre, toutes commencent par un courriel.",
+      "involved": [
+        { "title": "Participer", "body": "Les candidatures ouvrent quelques mois avant chaque édition. Les places sont limitées et les candidatures précoces sont privilégiées.", "cta": "Voir la prochaine édition" },
+        { "title": "Intervenir", "body": "Si vous travaillez sur l'IA au Burundi ou dans la région et souhaitez présenter, dites-nous sur quoi.", "cta": "Proposer une intervention" },
+        { "title": "Devenir partenaire", "body": "Le parrainage couvre la salle, la restauration et la connectivité, et permet de garder l'accès gratuit pour les étudiants.", "cta": "Devenir partenaire" },
+        { "title": "Organiser", "body": "L'événement est entièrement porté par des bénévoles. La logistique, la communication et le support technique manquent toujours de bras.", "cta": "Devenir bénévole" }
+      ],
+
+      "partnersTitle": "Partenaires",
+      "contactTitle": "Nous contacter",
+      "followTitle": "Suivez-nous"
+    },
+
+    "event": {
+      "datesTba": "Dates à confirmer",
+      "concluded": "Cette édition est terminée. Merci à toutes et à tous d'avoir participé.",
+      "apply": "Poser sa candidature",
+      "applySoon": "Candidatures pas encore ouvertes",
+      "programme": "Programme",
+      "programmeLede": "Susceptible d'évoluer — consultez cette page à l'approche de l'événement.",
+      "speakers": "Intervenants",
+      "team": "Équipe d'organisation",
+      "sponsors": "Partenaires et sponsors",
+      "venue": "Lieu",
+      "getDirections": "Obtenir l'itinéraire",
+      "gallery": "En images",
+      "viewProgramme": "Voir le programme",
+      "backToEditions": "Toutes les éditions",
+      "countdownDays": "jours",
+      "countdownHours": "heures",
+      "countdownMinutes": "minutes",
+      "countdownSeconds": "secondes",
+      "breakLabel": "Pause",
+      "noSpeakersYet": "Les intervenants seront annoncés ici au fur et à mesure des confirmations.",
+      "noProgrammeYet": "Le programme sera publié ici dès qu'il sera arrêté.",
+      "programmeArchiveUnavailable": "Le programme de cette édition n'est pas disponible dans les archives en ligne."
+    },
+
+    "footer": {
+      "rights": "Deep Learning IndabaX Burundi",
+      "builtBy": "Organisé par des bénévoles à Bujumbura."
+    }
+  }
+}

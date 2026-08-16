@@ -1,0 +1,28 @@
+{
+  "domain": "https://indabaxburundi.bi",
+  "name": "Deep Learning IndabaX Burundi",
+  "shortName": "IndabaX Burundi",
+  "email": "indabaxburundi2023@gmail.com",
+  "defaultLocale": "en",
+  "locales": ["en", "fr"],
+  "founded": 2023,
+
+  "address": {
+    "street": "Avenue de la Tanzanie No 31",
+    "quarter": "Buyenzi, Mukaza",
+    "city": "Bujumbura",
+    "country": "Burundi"
+  },
+
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=100091791609818",
+    "x": "https://x.com/indabaxburund",
+    "linkedin": "https://www.linkedin.com/in/indabax-burundi-2a7002278/",
+    "youtube": "https://www.youtube.com/@indabaxburundi2023"
+  },
+
+  "shareImage": "/src/Images/eventEnsemble.jpeg",
+  "logo": "/src/Images/indabax burundi logo.webp",
+
+  "_note": "REVIEW: confirm the postal address and that every social link is current before the next release."
+}

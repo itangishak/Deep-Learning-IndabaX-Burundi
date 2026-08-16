@@ -1,0 +1,51 @@
+{
+  "year": 2023,
+  "status": "past",
+
+  "startDate": "2023-06-27",
+  "endDate": "2023-06-29",
+  "applyUrl": null,
+
+  "venue": {
+    "name": "East Africa Star University",
+    "campus": null,
+    "city": "Bujumbura",
+    "mapEmbed": null,
+    "mapLink": null
+  },
+
+  "title": {
+    "en": "Deep Learning IndabaX Burundi 2023",
+    "fr": "Deep Learning IndabaX Burundi 2023"
+  },
+  "tagline": {
+    "en": "Embracing artificial intelligence to solve our daily challenges.",
+    "fr": "Adopter l'intelligence artificielle pour relever les défis de notre quotidien."
+  },
+  "intro": {
+    "en": "The inaugural edition brought together Burundian students and researchers for three days of discussions, practical workshops and networking. Participants explored how artificial intelligence could address local problems and shared projects already putting those ideas into practice.",
+    "fr": "Cette édition inaugurale a réuni des étudiants et des chercheurs burundais pendant trois jours de discussions, d'ateliers pratiques et de rencontres. Les participants ont exploré la manière dont l'intelligence artificielle peut répondre aux problèmes locaux et découvert des projets qui mettent déjà ces idées en pratique."
+  },
+
+  "documents": [
+    {
+      "file": "/src/docs/indabax-burundi-2023.pdf",
+      "label": { "en": "2023 event report (PDF)", "fr": "Rapport de l'événement 2023 (PDF)" }
+    }
+  ],
+
+  "stats": [
+    { "value": "33", "label": { "en": "attendees", "fr": "participants" } },
+    { "value": "3", "label": { "en": "days", "fr": "jours" } }
+  ],
+  "speakers": [],
+  "agenda": [],
+  "team": [],
+
+  "sponsors": [
+    { "name": "Deep Learning Indaba", "logo": "/src/Images/indaba.png", "tier": "principal" },
+    { "name": "East Africa Star University", "tier": "host" }
+  ],
+
+  "gallery": ["/src/Images/2023/indabax-burundi-2023.webp"]
+}

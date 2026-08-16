@@ -1,0 +1,143 @@
+{
+  "year": 2025,
+  "status": "past",
+
+  "startDate": "2025-12-11",
+  "endDate": "2025-12-12",
+  "applyUrl": null,
+
+  "_TODO": "The old page contradicted itself: the hero said Mutanga Campus while the venue block, map embed and directions link all said Kamenge. 'Mutanga' below follows the most recent edit to en-2025/index.html. Confirm which is correct and update mapEmbed/mapLink to match.",
+  "venue": {
+    "name": "University of Burundi",
+    "campus": "Mutanga",
+    "city": "Bujumbura",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4733.960475060154!2d29.387275767349553!3d-3.364835397836645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c1825c00870737%3A0xee6c7950b388b600!2sUniversity%20of%20Burundi-Kamenge%20Campus!5e0!3m2!1sen!2sbi!4v1712857644839!5m2!1sen!2sbi",
+    "mapLink": "https://www.google.com/maps/dir//University+of+Burundi-Kamenge+Campus,+Boulevard+du+28+Novembre,+Bujumbura/@-3.3648354,29.3872758,16.75z"
+  },
+
+  "title": {
+    "en": "Deep Learning IndabaX Burundi 2025",
+    "fr": "Deep Learning IndabaX Burundi 2025"
+  },
+  "tagline": {
+    "en": "Two days of keynotes, workshops and hands-on AI at the University of Burundi.",
+    "fr": "Deux jours de conférences, d'ateliers et de pratique de l'IA à l'Université du Burundi."
+  },
+  "intro": {
+    "en": "The third edition brought students, researchers and practitioners together in Bujumbura for keynotes on the fundamentals of AI, hands-on workshops in TensorFlow and no-code tooling, and panels on what artificial intelligence can realistically do for Burundi.",
+    "fr": "La troisième édition a réuni à Bujumbura étudiants, chercheurs et praticiens autour de conférences sur les fondamentaux de l'IA, d'ateliers pratiques en TensorFlow et en outils no-code, et de panels sur ce que l'intelligence artificielle peut réellement apporter au Burundi."
+  },
+
+  "stats": [
+    { "value": "150", "label": { "en": "Participants", "fr": "Participants" } },
+    { "value": "2",   "label": { "en": "Days",         "fr": "Jours" } },
+    { "value": "6+",  "label": { "en": "Speakers",     "fr": "Intervenants" } },
+    { "value": "10+", "label": { "en": "Topics",       "fr": "Thèmes" } }
+  ],
+
+  "speakers": [
+    { "name": "Prof. Michele Mukeshimana", "photo": "/src/Images/Michele.jpg",
+      "role": { "en": "University of Burundi", "fr": "Université du Burundi" } },
+    { "name": "Dr. Kelly Joelle G. Sinigirira", "photo": "/src/Images/kelly_speaker.png",
+      "role": { "en": "Public health & modelling", "fr": "Santé publique et modélisation" } },
+    { "name": "Eraste Nduwayo", "photo": "/src/Images/eraste_speaker.png",
+      "role": { "en": "AI & IoT engineer, ISOC Burundi", "fr": "Ingénieur IA et IoT, ISOC Burundi" } },
+    { "name": "Carmel Nkeshimana", "photo": "/src/Images/carmel.jpeg",
+      "role": { "en": "AI specialist", "fr": "Spécialiste IA" } },
+    { "name": "Kazeneza Micheline", "photo": "/src/Images/micheline.png",
+      "role": { "en": "AI for smart agriculture", "fr": "IA pour l'agriculture intelligente" } }
+  ],
+
+  "agenda": [
+    {
+      "date": "2025-12-11",
+      "label": { "en": "Day 1", "fr": "Jour 1" },
+      "sessions": [
+        { "time": "08:00 - 08:30", "break": true,
+          "title": { "en": "Registration", "fr": "Accueil et inscription" } },
+        { "time": "08:30 - 09:00",
+          "title": { "en": "Official opening (UB / Ministry of ICT / partners)", "fr": "Ouverture officielle (UB / Ministère des TIC / partenaires)" } },
+        { "time": "09:00 - 09:45", "speaker": "Prof. Michele Mukeshimana, Josua Jitimay",
+          "title": { "en": "Keynote: AI — fundamentals and challenges", "fr": "Conférence : l'IA — fondamentaux et enjeux" } },
+        { "time": "09:45 - 10:15", "speaker": "Ministry of ICT",
+          "title": { "en": "AI and Burundi Vision 2040 / 2060", "fr": "L'IA et la Vision Burundi 2040 / 2060" } },
+        { "time": "10:15 - 10:45", "break": true,
+          "title": { "en": "Group photo and coffee break", "fr": "Photo de groupe et pause café" } },
+        { "time": "10:45 - 12:00", "speaker": "Dr. Guy Degla",
+          "title": { "en": "Workshop 1: facial recognition for digital financial transactions", "fr": "Atelier 1 : reconnaissance faciale pour les transactions financières numériques" } },
+        { "time": "12:00 - 13:15", "break": true,
+          "title": { "en": "Lunch", "fr": "Déjeuner" } },
+        { "time": "13:15 - 14:15", "speaker": "Kelly Joelle Gatore Sinigirira",
+          "title": { "en": "AI-assisted mathematical modelling for climate-sensitive infectious diseases", "fr": "Modélisation mathématique assistée par l'IA pour les maladies infectieuses sensibles au climat" } },
+        { "time": "14:15 - 15:15", "speaker": "Chair: Eddy Didier · Pacifique Niyongabire, Josua Jitimay, Kelly Joelle Gatore Sinigirira",
+          "title": { "en": "Panel: young Burundian researchers", "fr": "Panel : jeunes chercheurs burundais" } },
+        { "time": "15:45 - 16:30",
+          "title": { "en": "Closing and Day 2 announcements", "fr": "Clôture et annonces du Jour 2" } }
+      ]
+    },
+    {
+      "date": "2025-12-12",
+      "label": { "en": "Day 2", "fr": "Jour 2" },
+      "sessions": [
+        { "time": "08:00 - 08:30",
+          "title": { "en": "Welcome and recap of objectives", "fr": "Accueil et rappel des objectifs" } },
+        { "time": "08:30 - 09:15", "speaker": "Dr. Sabiteka Micheline",
+          "title": { "en": "Towards sustainable education: adopting educational technology in developing countries", "fr": "Vers une éducation durable : l'adoption des technologies éducatives dans les pays en développement" } },
+        { "time": "09:15 - 10:00", "speaker": "Carmel Nkeshimana",
+          "title": { "en": "Hands-on workshop: a mini AI application with TensorFlow", "fr": "Atelier pratique : une mini-application IA avec TensorFlow" } },
+        { "time": "10:00 - 10:15", "break": true,
+          "title": { "en": "Coffee break", "fr": "Pause café" } },
+        { "time": "10:15 - 11:00", "speaker": "Kazeneza Micheline",
+          "title": { "en": "AI for smart agriculture", "fr": "L'IA pour l'agriculture intelligente" } },
+        { "time": "11:00 - 12:00", "speaker": "Ishaka Ericsson",
+          "title": { "en": "AI and dermatology: a mobile app for skin disease detection", "fr": "IA et dermatologie : une application mobile de détection des maladies de la peau" } },
+        { "time": "12:00 - 13:15", "break": true,
+          "title": { "en": "Lunch", "fr": "Déjeuner" } },
+        { "time": "13:15 - 14:00", "speaker": "Prof. Michele Mukeshimana",
+          "title": { "en": "The future of work and digital skills", "fr": "L'avenir du travail et les compétences numériques" } },
+        { "time": "14:00 - 14:45", "speaker": "Eraste Nduwayo",
+          "title": { "en": "Workshop 2 (no-code): build your first AI model", "fr": "Atelier 2 (no-code) : construisez votre premier modèle d'IA" } },
+        { "time": "14:45 - 15:30", "speaker": "Chair: Micheline Kazeneza · Prof. Michele Mukeshimana, Eraste Nduwayo, Ishaka Ericsson",
+          "title": { "en": "Open debate: can AI solve Burundi's challenges?", "fr": "Débat ouvert : l'IA peut-elle résoudre les défis du Burundi ?" } },
+        { "time": "15:30 - 16:30",
+          "title": { "en": "Closing: final recommendations", "fr": "Clôture : recommandations finales" } }
+      ]
+    }
+  ],
+
+  "team": [
+    { "name": "Itangishaka John Esterique", "photo": "/src/Images/esterique.webp",
+      "role": { "en": "Lead organiser", "fr": "Organisateur principal" } },
+    { "name": "Dr. Nadine Nibigira", "photo": "/src/Images/speaker.png",
+      "role": { "en": "Co-organiser", "fr": "Co-organisatrice" } },
+    { "name": "Irumva Kelly Chandelle", "photo": "/src/Images/kelly_organizer.JPG",
+      "role": { "en": "Co-organiser", "fr": "Co-organisatrice" } },
+    { "name": "Prof. Michele Mukeshimana", "photo": "/src/Images/Michele.jpg",
+      "role": { "en": "Scientific chair", "fr": "Présidente scientifique" } },
+    { "name": "Ndikuriyo Joseph", "photo": "/src/Images/joseph1.JPG",
+      "role": { "en": "Finance and budget", "fr": "Finances et budget" } },
+    { "name": "Kazeneza Micheline", "photo": "/src/Images/micheline.png",
+      "role": { "en": "Communication and publicity", "fr": "Communication et publicité" } },
+    { "name": "Ntirandekura Eric", "photo": "/src/Images/eric.jpeg",
+      "role": { "en": "Logistics and catering", "fr": "Logistique et restauration" } },
+    { "name": "Twizere Alain", "photo": "/src/Images/alain1.webp",
+      "role": { "en": "Technical support", "fr": "Support technique" } },
+    { "name": "Niyoyitungiye Emelyne", "photo": "/src/Images/emelyne1.webp",
+      "role": { "en": "Guests, security and protocol", "fr": "Invités, sécurité et protocole" } },
+    { "name": "Bigirimana Eddy Didier", "photo": "/src/Images/didier.jpeg",
+      "role": { "en": "Programme director", "fr": "Directeur du programme" } }
+  ],
+
+  "sponsors": [
+    { "name": "Deep Learning Indaba", "logo": "/src/Images/indaba.png", "tier": "principal" },
+    { "name": "University of Burundi", "logo": "/src/Images/ub.png", "tier": "host" }
+  ],
+
+  "gallery": [
+    "/src/Images/eventEnsemble.jpeg", "/src/Images/event8.jpeg", "/src/Images/event7.jpeg",
+    "/src/Images/event6.jpeg", "/src/Images/event5.jpeg", "/src/Images/event3.jpeg",
+    "/src/Images/event2.jpeg", "/src/Images/siteweb1.jpeg", "/src/Images/siteweb2.jpeg",
+    "/src/Images/siteweb3.jpeg", "/src/Images/siteweb4.jpeg", "/src/Images/siteweb5.jpeg",
+    "/src/Images/website6.jpeg"
+  ]
+}

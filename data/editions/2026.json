@@ -1,0 +1,40 @@
+{
+  "year": 2026,
+  "status": "upcoming",
+
+  "_TODO": "Fill in startDate/endDate once confirmed. While they are null the page shows 'Dates to be announced' and the countdown is hidden — nothing breaks.",
+  "startDate": null,
+  "endDate": null,
+  "applyUrl": null,
+
+  "venue": {
+    "name": "University of Burundi",
+    "campus": null,
+    "city": "Bujumbura",
+    "mapEmbed": null,
+    "mapLink": null
+  },
+
+  "title": {
+    "en": "Deep Learning IndabaX Burundi 2026",
+    "fr": "Deep Learning IndabaX Burundi 2026"
+  },
+  "tagline": {
+    "en": "The fourth edition of Burundi's gathering for artificial intelligence.",
+    "fr": "La quatrième édition du rendez-vous burundais de l'intelligence artificielle."
+  },
+  "intro": {
+    "en": "Planning for the 2026 edition is under way. Speakers, programme and venue will be published here as they are confirmed. If you would like to speak, sponsor or help organise, we would like to hear from you.",
+    "fr": "La préparation de l'édition 2026 est en cours. Les intervenants, le programme et le lieu seront publiés ici au fur et à mesure des confirmations. Si vous souhaitez intervenir, devenir partenaire ou aider à l'organisation, écrivez-nous."
+  },
+
+  "stats": [],
+  "speakers": [],
+  "agenda": [],
+  "team": [],
+
+  "sponsors": [
+    { "name": "Deep Learning Indaba", "logo": "/src/Images/indaba.png", "tier": "principal" },
+    { "name": "University of Burundi", "logo": "/src/Images/ub.png", "tier": "host" }
+  ]
+}

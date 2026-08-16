@@ -1,0 +1,115 @@
+{
+  "year": 2024,
+  "status": "past",
+
+  "_legacy": "The 2024 programme was never structured as data, so this edition is still served by its original hand-written pages. Port the agenda below and delete these two keys to switch it over to the generated layout.",
+  "legacy": { "en": "/en-2024/", "fr": "/fr-2024/" },
+
+  "startDate": "2024-07-29",
+  "endDate": "2024-07-31",
+  "applyUrl": null,
+
+  "venue": {
+    "name": "University of Burundi",
+    "campus": "Kamenge",
+    "city": "Bujumbura",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4733.960475060154!2d29.387275767349553!3d-3.364835397836645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c1825c00870737%3A0xee6c7950b388b600!2sUniversity%20of%20Burundi-Kamenge%20Campus!5e0!3m2!1sen!2sbi!4v1712857644839!5m2!1sen!2sbi",
+    "mapLink": "https://www.google.com/maps/dir//University+of+Burundi-Kamenge+Campus,+Boulevard+du+28+Novembre,+Bujumbura/@-3.3648354,29.3872758,16.75z"
+  },
+
+  "title": {
+    "en": "Deep Learning IndabaX Burundi 2024",
+    "fr": "Deep Learning IndabaX Burundi 2024"
+  },
+  "tagline": {
+    "en": "Three days of AI research, practice and community at the Kamenge Campus.",
+    "fr": "Trois jours de recherche, de pratique et de communauté autour de l'IA au Campus Kamenge."
+  },
+  "intro": {
+    "en": "The second edition ran over three days and drew speakers from Burundi, Senegal, Tunisia and Germany, covering natural language processing for African languages, information systems security, AI in aviation, and the foundations of deep learning.",
+    "fr": "La deuxième édition s'est déroulée sur trois jours et a réuni des intervenants du Burundi, du Sénégal, de Tunisie et d'Allemagne, autour du traitement automatique des langues africaines, de la sécurité des systèmes d'information, de l'IA dans l'aviation et des fondements de l'apprentissage profond."
+  },
+
+  "stats": [
+    { "value": "50",  "label": { "en": "Participants", "fr": "Participants" } },
+    { "value": "3",   "label": { "en": "Days",         "fr": "Jours" } },
+    { "value": "6+",  "label": { "en": "Speakers",     "fr": "Intervenants" } },
+    { "value": "10+", "label": { "en": "Topics",       "fr": "Thèmes" } }
+  ],
+
+  "_TODO": "The French translations of the speaker biographies below are still pending; until they exist the French page falls back to the English text.",
+
+  "speakers": [
+    {
+      "name": "Dr. Michele Mukeshimana",
+      "photo": "/src/Images/Michele.jpg",
+      "role": { "en": "University of Burundi", "fr": "Université du Burundi" },
+      "bio": {
+        "en": "Dr. Mukeshimana holds a PhD in Computer Sciences and Technologies specialising in machine learning and pattern recognition, obtained at the University of Science and Technology Beijing in 2018. She took her master's in computer application at Jiangnan University in 2010 and her bachelor's at Beijing Jiaotong University in 2006. She worked as an IT engineer at ONATEL Burundi from 2007 to 2012 and has been a lecturer and researcher at the University of Burundi since July 2012. Her research covers machine learning and pattern recognition across images, sound and text, multimedia technology, and web programming."
+      }
+    },
+    {
+      "name": "Aïmérou Ndiaye",
+      "photo": "/src/Images/ndiaye.jpg",
+      "role": { "en": "Baamtu, Senegal", "fr": "Baamtu, Sénégal" },
+      "bio": {
+        "en": "A research engineer at Baamtu, a Senegalese company specialising in data enhancement, and a doctoral student in artificial intelligence at Gaston Berger University, where he works on deep learning techniques applied to audio and video deepfakes for African languages."
+      }
+    },
+    {
+      "name": "Dr. Moez Ben Hajhmida",
+      "photo": "/src/Images/moez.png",
+      "role": { "en": "ENIT, Tunisia", "fr": "ENIT, Tunisie" },
+      "bio": {
+        "en": "Known for his work on natural language processing and artificial intelligence for under-represented languages. He holds a doctorate from the University of Tunis El Manar and is an associate professor at the National Engineering School of Tunis, teaching big data and AI. He has held roles at national and international AI startups, including Chief Operating Officer at iCompass, and was a Fulbright Visiting Scholar at UC Berkeley in 2022 working on generative AI and the explainability of deep learning models."
+      }
+    },
+    {
+      "name": "Dr. Hatem Haddad",
+      "photo": "/src/Images/hatem.png",
+      "role": { "en": "Manouba University, Tunisia", "fr": "Université de la Manouba, Tunisie" },
+      "bio": {
+        "en": "Dr. Haddad received his doctorate in computer science and information systems from the University Grenoble Alpes. He was a postdoctoral fellow at VTT Technical Research Centre of Finland and at the Norwegian University of Science and Technology, and has held assistant professor positions at Grenoble Alpes, UAEU, Sousse University, Mevlana University and ULB. His research covers natural language processing, machine learning and deep learning, and he is a board member of Masakhane and WiNLP."
+      }
+    },
+    {
+      "name": "Doreen Nixdorf",
+      "photo": "/src/Images/doreen.jpg",
+      "role": { "en": "Masakhane", "fr": "Masakhane" },
+      "bio": {
+        "en": "Doreen Nixdorf began her career as a laboratory technician in biochemistry in 1991, moved into acting in 1997, and is now studying computer science. A lover of languages, she has learned Russian, English, Chinese, Spanish, some French and Arabic, and discovered Kirundi in 2017. She is an active member of Masakhane and contributed to the MasakhaNews corpus. In 2022 she visited Burundi, building cooperation with the linguistics department of the University of Bujumbura and the Deutschzentrum in Bujumbura."
+      }
+    },
+    {
+      "name": "Dr. Thierry Nsabimana",
+      "photo": "/src/Images/thierry.jpg",
+      "role": { "en": "University of Burundi", "fr": "Université du Burundi" },
+      "bio": {
+        "en": "Dr. Nsabimana holds a PhD in information and communications technology specialising in information systems security from the University of Abomey-Calavi. He is a senior assistant professor at the University of Burundi and Vice Dean of its Institute of Applied Statistics. His interests include data warehousing, data mining, the internet of things, machine learning, big data analytics, fog/edge/cloud computing security, cyber security and ethical hacking."
+      }
+    },
+    {
+      "name": "Ngenzirabona Emmanuel",
+      "photo": "/src/Images/emmanuel.jpg",
+      "role": { "en": "University of Burundi", "fr": "Université du Burundi" },
+      "bio": {
+        "en": "Emmanuel is a PhD student at the University of Burundi researching artificial intelligence and cyber security for aviation, and ICT Manager at the Burundi Civil Aviation Authority. He holds a master's from the African Centre of Excellence in Mathematical Sciences and Applications at the University of Abomey-Calavi, and completed the African Masters in Machine Intelligence at AIMS Senegal. He conducts research at CRIET Lab and teaches mobile applications, networks, telecommunications and electronics."
+      }
+    }
+  ],
+
+  "agenda": [],
+  "_TODO_agenda": "The 2024 session list was never structured as data. Port it from the archived page at /en-2024/ if you want the full programme rendered here.",
+
+  "team": [],
+
+  "sponsors": [
+    { "name": "Deep Learning Indaba", "logo": "/src/Images/indaba.png", "tier": "principal" },
+    { "name": "University of Burundi", "logo": "/src/Images/ub.png", "tier": "host" }
+  ],
+
+  "gallery": [
+    "/src/Images/eventEnsemble.jpeg", "/src/Images/event8.jpeg", "/src/Images/event7.jpeg",
+    "/src/Images/event6.jpeg", "/src/Images/event5.jpeg", "/src/Images/event3.jpeg"
+  ]
+}

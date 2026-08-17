@@ -60,6 +60,8 @@ sitemap and the navigation all update from it.
   "startDate": "2027-07-15",     // null until confirmed — the page then says
   "endDate": "2027-07-16",       // "Dates to be announced" and hides the countdown
   "applyUrl": "https://…",       // null until applications open
+  "heroImage": "/src/Images/…",  // the large picture beside the title;
+                                 // omit it and the first gallery photo is used
   "venue": { "name": "...", "campus": "...", "city": "Bujumbura",
              "mapEmbed": "...", "mapLink": "..." },
   "title":   { "en": "...", "fr": "..." },

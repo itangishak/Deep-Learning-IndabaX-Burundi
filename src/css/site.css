@@ -213,6 +213,7 @@ main { display: block; }
   gap: var(--gap);
 }
 .section + .section { padding-top: 0; }
+main > .section:last-child { padding-bottom: 0; }
 /* the first section after a hero sits closer to it */
 .hero + .section { padding-top: clamp(1rem, 3vw, 2.25rem); }
 
@@ -713,13 +714,17 @@ dialog.bio::backdrop { background: rgba(13, 18, 17, .6); backdrop-filter: blur(2
   padding-bottom: .6rem;
   scrollbar-width: thin;
 }
-.gallery li { scroll-snap-align: start; }
+.gallery li {
+  scroll-snap-align: start;
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface-2);
+}
 .gallery img {
   width: 100%;
-  aspect-ratio: 3 / 2;
+  height: 100%;
   object-fit: cover;
-  border-radius: var(--radius);
-  background: var(--surface-2);
 }
 .gallery-section { width: 100%; }
 .gallery-section > h2 { width: var(--page); margin-inline: auto; }

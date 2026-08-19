@@ -31,7 +31,7 @@ lib/
   layout.mjs             the HTML shell: <head>, header, footer
   pages.mjs              the three page types
 src/                     assets served as-is (images, CSS, docs)
-en-2024/ fr-2024/        the 2024 pages, still hand-written (see below)
+en-2024/ fr-2024/        original 2024 source pages, kept for reference
 build.mjs                the generator
 dist/                    build output — generated, not committed
 ```
@@ -115,11 +115,9 @@ which serves the repository root instead of the build output.
 
 ## Known gaps
 
-- **2024 is still hand-written.** `data/editions/2024.json` carries the speakers
-  and their biographies, but the programme was never structured as data, so the
-  edition still points at `en-2024/` and `fr-2024/`. To finish the migration:
-  port the session list into the `agenda` array, then delete the `legacy` and
-  `_legacy` keys from that file.
+- **The 2024 programme is not yet structured as data.** The edition now uses the
+  same generated design as every other year; its original hand-written files
+  remain in the repository as the source for a future programme migration.
 - **The 2023 speaker list and programme are not in the archive.** Its supplied
   event report confirms the dates, host venue and attendance, which are already
   included on the page.

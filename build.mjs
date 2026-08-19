@@ -21,10 +21,12 @@ const ROOT = dirname(fileURLToPath(import.meta.url));
 const OUT = join(ROOT, "dist");
 
 /** Directories and files copied into dist/ verbatim. */
-const PASSTHROUGH = ["src", "CNAME", "en-2024", "fr-2024"];
+const PASSTHROUGH = ["src", "CNAME"];
 
 /** Old URLs that must keep working, and where they now point. */
 const REDIRECTS = {
+  "en-2024": "/events/2024/",
+  "fr-2024": "/fr/events/2024/",
   "en-2025": "/events/2025/",
   "fr-2025": "/fr/events/2025/",
 };
@@ -114,7 +116,7 @@ async function build() {
     for (const edition of editions) {
       if (edition.legacy?.[lang]) continue; // still served by its original page
       written.push(await emit(localePath(`/events/${edition.year}/`, lang, site.defaultLocale),
-        eventPage({ site, i18n, lang, edition })));
+        eventPage({ site, i18n, lang, edition, editions })));
     }
   }
 

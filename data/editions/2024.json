@@ -2,9 +2,6 @@
   "year": 2024,
   "status": "past",
 
-  "_legacy": "The 2024 programme was never structured as data, so this edition is still served by its original hand-written pages. Port the agenda below and delete these two keys to switch it over to the generated layout.",
-  "legacy": { "en": "/en-2024/", "fr": "/fr-2024/" },
-
   "startDate": "2024-07-29",
   "endDate": "2024-07-31",
   "applyUrl": null,

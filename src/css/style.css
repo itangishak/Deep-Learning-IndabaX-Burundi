@@ -1139,6 +1139,49 @@ button:focus {
     z-index: 3;
     position: relative;
 }
+
+/* Navigation shared by the archived 2024 edition and the generated timeline. */
+.edition-nav {
+	width: min(1100px, calc(100% - 32px));
+	margin: 32px auto 10px;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 18px;
+}
+.edition-nav-link {
+	display: flex;
+	flex-direction: column;
+	min-height: 88px;
+	padding: 16px 20px;
+	border: 1px solid #d9dfdc;
+	border-radius: 10px;
+	background: #fff;
+	color: #14201d;
+	text-decoration: none;
+	box-shadow: 0 8px 24px rgba(11, 20, 24, .08);
+	transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+.edition-nav-link:hover {
+	color: #14201d;
+	border-color: #198754;
+	box-shadow: 0 12px 30px rgba(11, 20, 24, .14);
+	transform: translateY(-2px);
+}
+.edition-nav-link span {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	color: #66736f;
+}
+.edition-nav-link b { font-size: 28px; line-height: 1.2; }
+.edition-nav-link.is-next { grid-column: 2; text-align: right; }
+@media (max-width: 520px) {
+	.edition-nav { width: calc(100% - 24px); gap: 10px; }
+	.edition-nav-link { min-height: 76px; padding: 12px; }
+	.edition-nav-link span { font-size: 10px; }
+	.edition-nav-link b { font-size: 23px; }
+}
 .hero_sec .tect_partner {
         position: absolute;
     background: url(/src/Images/team11.webp) repeat;
